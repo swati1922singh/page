@@ -1,0 +1,164 @@
+:root {
+  --heading-font-size: 1rem;
+  --font-weight: 700;
+  --text-uppercase: uppercase;
+  --button-font-size: 13px;
+  --display-grid: grid;
+}
+.navbar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background-color: blueviolet;
+  color: white;
+}
+.container {
+  padding-left: 6rem;
+  margin-right: 3rem;
+}
+.link-grp {
+  text-align: start;
+  padding-left: 2rem;
+}
+.link-btn {
+  text-decoration: none;
+  border: none;
+}
+/*=====================svg=========================*/
+.svg1 {
+  width: 30px;
+  height: 30px;
+}
+.svg6 {
+  padding-top: 4px;
+}
+.svg2 {
+  padding-top: 7px;
+  width: 10px;
+}
+.svg5 {
+  padding-top: 2px;
+}
+
+.input-group {
+  padding-left: 2rem;
+  padding-top: 10px;
+}
+.form-control {
+  background-color: rgb(248, 245, 245);
+}
+/*============Card==============*/
+.collect {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.card {
+  border-radius: 0%;
+}
+.card-title {
+  font-weight: var(--font-weight);
+  font-size: var(--heading-font-size);
+  background-color: cornsilk;
+  height: 2rem;
+  text-align: start;
+  padding-left: 1rem;
+  text-transform: var(--text-uppercase);
+  padding-top: 4px;
+}
+.item-grp {
+  text-align: start;
+  display: var(--display-grid);
+  grid-template-columns: 1fr 1fr;
+}
+.item-link {
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.my-item {
+  display: var(--display-grid);
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.change {
+  display: var(--display-grid);
+  grid-template-columns: 1fr 1fr;
+  padding-left: 6rem;
+}
+.edit-delete {
+  border: none;
+  background-color: white;
+  padding: 0%;
+}
+.button-grp {
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.bttn {
+  border-radius: 0%;
+  height: 1.8rem;
+  border: none;
+  text-transform: var(--text-uppercase);
+  font-size: var(--button-font-size);
+  font-weight: var(--font-weight);
+}
+
+.btn-1 {
+  background-color: rgb(168, 129, 204);
+}
+.btn-2 {
+  background-color: pink;
+}
+.btn-3 {
+  background-color: skyblue;
+}
+.time {
+  padding-top: 1rem;
+  text-align: start;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.drop-down {
+  padding-top: 3rem;
+  padding-left: 4rem;
+  display: var(--display-grid);
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+.drop-btn {
+  display: flex;
+  gap: 20px;
+  border: none;
+}
+.new-btn {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  text-align: start;
+}
+.light {
+  font-size: var(--heading-font-size);
+  font-weight: var(--font-weight);
+}
+/*=================================================================================================================*/
+
+.col-6 {
+  padding-left: 3rem;
+  text-align: start;
+}
+.heading {
+  padding-top: 1rem;
+}
+.AT-input {
+  padding-top: 5px;
+}
+.button-group {
+  padding-top: 2rem;
+  display: var(--display-grid);
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 25rem;
+  padding-left: 2rem;
+}
